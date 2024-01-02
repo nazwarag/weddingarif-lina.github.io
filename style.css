@@ -73,8 +73,9 @@ body {
 }
 
 .home {
-  background-image: url(https://drive.google.com/uc?export=view&id=184Uh7_7YlX5kn6lkKKYVdxUtZ4ADUlFx);
+  background-image: url(https://drive.google.com/uc?export=view&id=1QYmuzZbXBrRFJlO8As3AqlEsy9OZM6M7);
   background-size: cover;
+  background-position: center;
   min-height: 100vh;
   margin-top: -5rem;
   padding-top: 10rem;
@@ -154,6 +155,21 @@ body {
   html {
     font-size: 75%;
   }
+
+  .mynavbar .nav-link {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .home .couple {
+    margin-top: 50px;
+  }
+
+  .home .couple h3 {
+    font-family: "Sacramento";
+    font-size: 10rem;
+    color: var(--pink);
+  }
 }
 
 @media (max-width: 768px) {
@@ -166,17 +182,13 @@ body {
     text-align: center;
   }
 
-  .home .couple img {
-    width: 95px;
-  }
-
   .home .couple {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .home .couple h3 {
     font-family: "Sacramento";
-    font-size: 2.4rem;
+    font-size: 4rem;
     color: var(--pink);
   }
 }
@@ -191,17 +203,13 @@ body {
     text-align: center;
   }
 
-  .home .couple img {
-    width: 95px;
-  }
-
   .home .couple {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .home .couple h3 {
     font-family: "Sacramento";
-    font-size: 2.4rem;
+    font-size: 4rem;
     color: var(--pink);
   }
 }
